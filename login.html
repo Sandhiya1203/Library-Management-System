@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="signup.css">
+     <title>Login</title>
+   </head>
+<body>
+  <div class="container">
+    <div class="title">LOGIN </div>
+    <div class="content">
+      <form action="home.html" method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" required>
+          </div>
+          <br>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="text" placeholder="Enter your password" required>
+          </div>
+        </div>
+        <div>
+            <input type="checkbox"><span>Remeber me</span><br><br>
+        </div>
+        <div>
+            <a href="signup.html"><span>Forgot Password</span></a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+          <button onclick="signIn()" href="home.html">Login with google</button>
+        </div>
+        <div class="button">
+          <input type="submit" value="Login" />
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="login.js"></script>
+  <script>
+    function loadf(){
+      window.location.href="home.html";
+    }
+  </script>
+</body>
+</html>
